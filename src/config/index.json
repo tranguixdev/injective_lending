@@ -1,0 +1,20 @@
+{
+  "navigation": [
+    {
+      "name": "Lend",
+      "href": "lend"
+    },
+    {
+      "name": "Borrow",
+      "href": "borrow"
+    },
+    {
+      "name": "Statistics",
+      "href": "statistics"
+    },
+    {
+      "name": "Loans",
+      "href": "loans"
+    }
+  ]
+}

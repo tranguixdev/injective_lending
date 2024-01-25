@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+    color: $text-light;
+    background: linear-gradient(to top,
+            transparent,
+            $bg-gradient-end)
+        $bg-gradient-start;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
