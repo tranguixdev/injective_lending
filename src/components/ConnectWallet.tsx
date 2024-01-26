@@ -12,7 +12,7 @@ const ConnectWallet = (props: Props) => {
   return (
     <button
       onClick={connectWallet}
-      className={`common-outline-btn text-white px-5 py-2 shine shadow-md`}
+      className={` rounded-xl border text-white px-5 py-2 text-sm`}
     >
       {btnText}
     </button>

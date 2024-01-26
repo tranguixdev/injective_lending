@@ -1,5 +1,6 @@
 import {TopTitleSectionType} from '../types/section';
 
 export const TopTitleSection:TopTitleSectionType = {
-  title: ['BORROW & LEND AGAINST', 'YOUR NFTS, INSTANTLY']
+  title: ['BORROW & LEND AGAINST', 'YOUR NFTS, INSTANTLY'],
+  buttons: ['Lend', 'Borrow']
 }

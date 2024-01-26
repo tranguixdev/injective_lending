@@ -1,12 +1,13 @@
 import {NavLinkType} from '.';
 
 export type NavbarSectionType = {
-  logoTitle: string,
+  logo: string,
   navigation: NavLinkType[];
 };
 
 export type TopTitleSectionType = {
-  title: string[]
+  title: string[],
+  buttons: string[]
 }
 
 export type NFTImageSectionType = {
