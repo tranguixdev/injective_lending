@@ -1,19 +1,23 @@
 .common-btn {
-    background: linear-gradient(180deg,#FB79EC 0%,#FF6C6B 100%);
+    background   : linear-gradient(180deg, #FB79EC 0%, #FF6C6B 100%);
     border-radius: 9999px;
-    padding: 8px 15px;
-    min-width: 120px;
-    font-size: 15px;
+    padding      : 8px 15px;
+    min-width    : 120px;
+    font-size    : 15px;
 }
 
 .common-outline-btn {
-    border: 2px solid $primary-color;
-    border-radius: 9999px;
-    padding: 6px 15px;
-    min-width: 120px;
-    font-size: 15px;
-    background: linear-gradient(111.34deg,#FB79EC .35%,#FF6C6B 100.35%);
+    border                 : 2px solid $primary-color;
+    border-radius          : 9999px;
+    padding                : 6px 15px;
+    min-width              : 120px;
+    font-size              : 15px;
+    background             : linear-gradient(111.34deg, #FB79EC .35%, #FF6C6B 100.35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip        : text;
+}
+
+.grid-cols-auto-232 {
+    grid-template-columns: repeat(4, minmax(32px, 200px));
 }

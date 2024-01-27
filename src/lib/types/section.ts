@@ -13,3 +13,9 @@ export type TopTitleSectionType = {
 export type NFTImageSectionType = {
   paths: string[]
 }
+
+export type FooterSectionType = {
+  title: string, 
+  description: string, 
+  buttonTxt:  string
+}
