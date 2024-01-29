@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { TopTitleSection } from "@/lib/content/home";
+import { TopTitleSection } from "@/lib/content";
 
 const TopTitle = () => {
   const [domLoaded, setDomLoaded] = useState(false);
@@ -28,12 +28,12 @@ const TopTitle = () => {
           height={1}
         />
         <Link href="/lend">
-          <button className={` rounded-xl border text-white px-7 py-2 text-sm`}>
+          <button className={` border border-slate-400 px-7 py-2 text-sm`}>
             {buttons[0]}
           </button>
         </Link>
         <Link href="/borrow" className="ml-5">
-          <button className={` rounded-xl border text-white px-5 py-2 text-sm`}>
+          <button className={` border border-slate-400 px-5 py-2 text-sm`}>
             {buttons[1]}
           </button>
         </Link>

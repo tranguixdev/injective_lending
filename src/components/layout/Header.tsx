@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { fadeIn, slideIn } from "@/styles/animations";
+
 import { NavLinkType } from "@/lib/types";
-import { NavbarSection } from "@/lib/content/home";
-import ConnectWallet from "../buttons/ConnectWallet";
+import { NavbarSection } from "@/lib/content";
+import ConnectWallet from "../global/buttons/ConnectWallet";
 
 const Logo = ({ path }: { path: string }) => {
   return (
@@ -23,7 +26,7 @@ const NavBar = ({ items }: { items: NavLinkType[] }) => {
           <li className="flex items-center" key={item.name}>
             <Link
               href={item.href}
-              className={`text-white cursor-pointer hover:no-underline text-lg m-0`}
+              className={`text-white cursor-pointer hover:no-underline text-lg m-0 hover:text-blue-600`}
             >
               {item.name}
             </Link>

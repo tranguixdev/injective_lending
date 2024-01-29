@@ -1,6 +1,6 @@
 import { NFTImageSectionType } from "@/lib/types/section";
 import NftImage from "./NftImage";
-import { NFTImageSection } from "@/lib/content/home";
+import { NFTImageSection } from "@/lib/content";
 
 const NftImages = () => {
   const { paths } = NFTImageSection;
